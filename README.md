@@ -216,7 +216,7 @@ public static void send_common() throws Throwable {
 		System.out.println(res.getMessage());
 		System.out.println(res.getInfo());
 	}
-    // with 附件
+    // 批量发送
 	public static void send_with_addresslist() throws Throwable {
 		AddressListReceiver receiver = new AddressListReceiver();
 		// 设置地址列表
